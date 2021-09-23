@@ -6,6 +6,7 @@ import prompt
 first_number = 1
 second_number = 10
 
+
 def main():
     print("Welcome to the Brain Games!")
     name = prompt.string('May I have your name? ')
@@ -24,8 +25,11 @@ def main():
             print('Correct!')
             chek += 1
         else:
-            return print("'{}' is wrong answer ;(. Correct answer was '{}'.\nLet's try again, {}!".format(answer, parity_number, name))
+            print("'{}' is wrong answer ;(. Correct answer was '{}'.".format(answer, parity_number))
+            print("Let's try again, {}!".format(name))
+            return
     return print('Congratulations, {}!'.format(name))
+
 
 if __name__ == "__main__":
     main()
