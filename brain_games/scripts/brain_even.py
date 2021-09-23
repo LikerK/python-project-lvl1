@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 from random import randint
 import prompt
 
@@ -9,6 +9,7 @@ second_number = 10
 def main():
     print("Welcome to the Brain Games!")
     name = prompt.string('May I have your name? ')
+    print('Hello, {}!'.format(name))
     print('Answer "yes" if the number is even, otherwise answer "no".')
     chek = 0
     while chek < 3:
@@ -23,7 +24,7 @@ def main():
             print('Correct!')
             chek += 1
         else:
-            return print("'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, {}!".format(name))
+            return print("'{}' is wrong answer ;(. Correct answer was '{}'.\nLet's try again, {}!".format(answer, parity_number, name))
     return print('Congratulations, {}!'.format(name))
 
 if __name__ == "__main__":
