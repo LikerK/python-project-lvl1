@@ -4,3 +4,4 @@
 [![example workflow](https://github.com/LikerK/python-project-lvl1/actions/workflows/github-actions-demo.yml/badge.svg)](https://github.com/LikerK/python-project-lvl1/actions/runs/1261455738)
 [![asciicast](https://asciinema.org/a/beQisBrzhTG5DJ0pUYm4RtvgV.svg)](https://asciinema.org/a/beQisBrzhTG5DJ0pUYm4RtvgV)
 [![asciicast](https://asciinema.org/a/SZ5iZR2RFuSAxypYfyItUZZDx.svg)](https://asciinema.org/a/SZ5iZR2RFuSAxypYfyItUZZDx)
+[![asciicast](https://asciinema.org/a/v3oA0lSvwtctc99SBqAR0wPJg.svg)](https://asciinema.org/a/v3oA0lSvwtctc99SBqAR0wPJg)
