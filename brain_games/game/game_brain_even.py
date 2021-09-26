@@ -3,7 +3,7 @@ from random import randint
 
 
 first_number = 1
-second_number = 10
+second_number = 20
 
 
 task_game = 'Answer "yes" if the number is even, otherwise answer "no".'

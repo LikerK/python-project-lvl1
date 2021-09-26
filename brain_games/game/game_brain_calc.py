@@ -3,7 +3,7 @@ from random import choice, randint
 
 
 first_number = 1
-second_number = 10
+second_number = 20
 
 
 task_game = 'What is the result of the expression?'
