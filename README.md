@@ -3,3 +3,4 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
 [![example workflow](https://github.com/LikerK/python-project-lvl1/actions/workflows/github-actions-demo.yml/badge.svg)](https://github.com/LikerK/python-project-lvl1/actions/runs/1261455738)
 [![asciicast](https://asciinema.org/a/beQisBrzhTG5DJ0pUYm4RtvgV.svg)](https://asciinema.org/a/beQisBrzhTG5DJ0pUYm4RtvgV)
+[![asciicast](https://asciinema.org/a/SZ5iZR2RFuSAxypYfyItUZZDx.svg)](https://asciinema.org/a/SZ5iZR2RFuSAxypYfyItUZZDx)
