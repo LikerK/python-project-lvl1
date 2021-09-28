@@ -6,7 +6,7 @@ first_number = 1
 second_number = 20
 
 
-task_game = 'Answer "yes" if the number is even, otherwise answer "no".'
+TASK_GAME = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def get_game_round():

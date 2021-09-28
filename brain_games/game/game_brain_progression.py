@@ -2,7 +2,7 @@
 from random import randint
 
 
-task_game = 'What number is missing in the progression?'
+TASK_GAME = 'What number is missing in the progression?'
 
 
 def get_game_round():

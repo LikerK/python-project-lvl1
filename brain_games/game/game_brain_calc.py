@@ -6,7 +6,7 @@ first_number = 1
 second_number = 20
 
 
-task_game = 'What is the result of the expression?'
+TASK_GAME = 'What is the result of the expression?'
 
 
 def get_game_round():

@@ -5,7 +5,7 @@ from random import randint
 first_number = 1
 second_number = 20
 
-task_game = 'Find the greatest common divisor of given numbers.'
+TASK_GAME = 'Find the greatest common divisor of given numbers.'
 
 
 def get_game_round():
