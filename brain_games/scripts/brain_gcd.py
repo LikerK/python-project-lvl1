@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from brain_games.game import game_brain_gcd
+from brain_games.games import game_brain_gcd
 from brain_games.game_logic import get_game
 
 

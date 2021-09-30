@@ -11,7 +11,7 @@ def welcome_user():
 
 def get_game(game):
     name = welcome_user()
-    print(game.TASK_GAME)
+    print(game.TASK)
     for i in range(3):
         question, correct_answer = game.get_game_round()
         print('Question:', question)
