@@ -2,16 +2,16 @@
 from random import choice, randint
 
 
-LEFT_BORDER_INTERVAL = 1
-RIGHT_BORDER_INTERVAL = 20
+LEFT_BORDER = 1
+RIGHT_BORDER = 20
 
 
 TASK = 'What is the result of the expression?'
 
 
-def get_game_round():
-    num1 = randint(LEFT_BORDER_INTERVAL, RIGHT_BORDER_INTERVAL)
-    num2 = randint(LEFT_BORDER_INTERVAL, RIGHT_BORDER_INTERVAL)
+def get_round():
+    num1 = randint(LEFT_BORDER, RIGHT_BORDER)
+    num2 = randint(LEFT_BORDER, RIGHT_BORDER)
     operators = ['+', '-', '*']
     rand_operator = choice(operators)
     if rand_operator == '+':

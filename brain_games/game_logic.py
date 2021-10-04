@@ -2,18 +2,12 @@
 import prompt
 
 
-def welcome_user():
+def execute(game):
     print("Welcome to the Brain Games!")
     name = prompt.string('May I have your name? ')
-    print('Hello, {}!'.format(name))
-    return name
-
-
-def get_game(game):
-    name = welcome_user()
-    print(game.TASK)
+    print('Hello, {}!\n{}'.format(name, game.TASK))
     for i in range(3):
-        question, correct_answer = game.get_game_round()
+        question, correct_answer = game.get_round()
         print('Question:', question)
         answer = prompt.string('Your answer: ')
         if answer == correct_answer:

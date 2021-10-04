@@ -2,8 +2,8 @@
 from random import randint
 
 
-LEFT_BORDER_INTERVAL = 1
-RIGHT_BORDER_INTERVAL = 20
+LEFT_BORDER = 1
+RIGHT_BORDER = 20
 
 TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
@@ -18,7 +18,7 @@ def is_prime(number):
         return False
 
 
-def get_game_round():
-    number = randint(LEFT_BORDER_INTERVAL, RIGHT_BORDER_INTERVAL)
+def get_round():
+    number = randint(LEFT_BORDER, RIGHT_BORDER)
     correct_answer = 'yes' if is_prime(number) else 'no'
     return number, correct_answer
